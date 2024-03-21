@@ -1,4 +1,4 @@
-Шаблон для 2-гої роботи з архітектури ПЗ
----
+Lab work  2 for Software architecture
 
-Використайте кнопку **"Use this template"**, щоб створити власний репозиторій.
+[example of successful build](https://github.com/1Laggy1/Lab2/actions/runs/8379340382)
+[example of failed build](https://github.com/1Laggy1/Lab2/actions/runs/8379314230) 
