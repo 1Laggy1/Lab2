@@ -20,8 +20,8 @@ jobs:
 
     - name: Build
         run: |
-	mkdir -p out
-	go build -o out/example ./cmd/example
+    	 mkdir -p out
+    	 go build -o out/example ./cmd/example
 
     - name: Test
       run: make test
