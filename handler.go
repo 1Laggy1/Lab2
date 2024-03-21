@@ -19,7 +19,7 @@ func NewComputeHandler(input string, output io.Writer) *ComputeHandler {
 func (ch *ComputeHandler) Compute() error {
 	expression := strings.Fields(ch.input)
 	if len(expression) == 0 {
-		return errors.New("відсутні дані для обробки")
+		return errors.New("РІС–РґСЃСѓС‚РЅС– РґР°РЅС– РґР»СЏ РѕР±СЂРѕР±РєРё")
 	}
 
 	result, err := PostfixToInfix(strings.Join(expression, " "))
@@ -45,6 +45,6 @@ func ParseInput(expressionFlag, fileFlag string) (string, error) {
 		}
 		return string(data), nil
 	} else {
-		return "", errors.New("не вказаний вираз або файл з виразом")
+		return "", errors.New("РЅРµ РІРєР°Р·Р°РЅРёР№ РІРёСЂР°Р· Р°Р±Рѕ С„Р°Р№Р» Р· РІРёСЂР°Р·РѕРј")
 	}
 }
