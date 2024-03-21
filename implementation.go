@@ -1,5 +1,3 @@
-//implementation.go
-
 package lab2
 
 import (
