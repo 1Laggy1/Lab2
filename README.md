@@ -4,4 +4,4 @@ Lab work  2 for Software architecture
 
 [example of failed build](https://github.com/1Laggy1/Lab2/actions/runs/8379314230) 
 
-link for pull request
+[link for pull request](https://github.com/1Laggy1/Lab2/pull/1)
