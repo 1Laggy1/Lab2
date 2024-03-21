@@ -12,7 +12,7 @@ func TestPostfixToInfix(t *testing.T) {
 		expected   string
 		err        bool
 	}{
-		{"10 2 8 * 4 / + 3 -", "((0+((2*8)/4))-3)", false},
+		{"10 2 8 * 4 / + 3 -", "((10+((2*8)/4))-3)", false},
 		{"4 2 - 3 * 5 +", "(((4-2)*3)+5)", false},
 		{"2 3 + 5 2 - *", "((2+3)*(5-2))", false},
 		{"", "", true},
