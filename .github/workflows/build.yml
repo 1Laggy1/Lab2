@@ -19,7 +19,9 @@ jobs:
         go-version: '1.17'
 
     - name: Build
-        run: go build -o lab2 main.go
+        run: 
+	mkdir -p out
+	go build -o out/example ./cmd/example
 
     - name: Test
       run: make test
